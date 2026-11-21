@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #06090f;
+    color: #e2e8f0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden; /* full-screen app shell */
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0b1120;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #243047;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #38bdf8;
+  }
+}
+
+@layer components {
+  /* ── Metric card base ── */
+  .metric-card {
+    @apply relative overflow-hidden rounded-xl border border-white/5 bg-surface-800 p-4
+      transition-all duration-300 hover:border-accent-500/30 hover:shadow-glow-teal;
+  }
+
+  /* ── Status badge variants ── */
+  .badge-optimal {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold
+      bg-emerald-500/20 text-emerald-400 border border-emerald-500/30;
+  }
+  .badge-strained {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold
+      bg-amber-500/20 text-amber-400 border border-amber-500/30;
+  }
+  .badge-critical {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold
+      bg-rose-500/20 text-rose-400 border border-rose-500/30;
+  }
+
+  /* ── Preset scenario button ── */
+  .preset-btn {
+    @apply w-full rounded-lg border border-white/10 bg-surface-700 px-4 py-3
+      text-left text-sm font-medium text-slate-300
+      transition-all duration-200
+      hover:border-accent-500/50 hover:bg-surface-600 hover:text-white hover:shadow-glow-teal
+      active:scale-[0.98];
+  }
+  .preset-btn.active {
+    @apply border-accent-500/60 bg-accent-500/10 text-accent-400 shadow-glow-teal;
+  }
+
+  /* ── Canvas placeholder ── */
+  .canvas-placeholder {
+    @apply relative flex h-full flex-col items-center justify-center
+      overflow-hidden rounded-2xl border border-white/5 bg-surface-900
+      bg-grid-pattern bg-grid;
+  }
+
+  /* ── Progress bar fill ── */
+  .progress-fill {
+    @apply h-full rounded-full transition-all duration-700 ease-out;
+  }
+}
+
+@layer utilities {
+  .text-glow-teal {
+    text-shadow: 0 0 12px rgba(56, 189, 248, 0.6);
+  }
+  .text-glow-emerald {
+    text-shadow: 0 0 12px rgba(52, 211, 153, 0.6);
+  }
+  .text-glow-amber {
+    text-shadow: 0 0 12px rgba(251, 191, 36, 0.6);
+  }
+  .text-glow-rose {
+    text-shadow: 0 0 12px rgba(251, 113, 133, 0.6);
+  }
+
+  /* Animated gradient shimmer for loading states */
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.04) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+}
