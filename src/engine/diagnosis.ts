@@ -1,5 +1,5 @@
 // ============================================================
-// TinigAral — Smart Acoustic Diagnosis & Recommendation Engine
+// DINIG — Smart Acoustic Diagnosis & Recommendation Engine
 // Analyzes room state and projects highest-impact interventions
 // ============================================================
 

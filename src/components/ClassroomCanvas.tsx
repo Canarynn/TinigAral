@@ -1,5 +1,5 @@
 // ============================================================
-// TinigAral — ClassroomCanvas.tsx
+// DINIG — ClassroomCanvas.tsx
 // Interactive 3D Orbit Camera & Classroom Viewport
 // Fixed: Chair visibility with unified 3D depth-sorting & cutaway walls
 // Added: Spatial Passing Vehicles, Continuous Rain VFX, Pointer Capture,

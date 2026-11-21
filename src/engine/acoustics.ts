@@ -1,5 +1,5 @@
 // ============================================================
-// TinigAral — Acoustic Physics Engine
+// DINIG — Acoustic Physics Engine
 // Real-time calculations per ISO 3382 / Sabine theory
 // All inputs: SI units (metres, dBA). Outputs: AcousticMetrics.
 // ============================================================

@@ -1,5 +1,5 @@
 // ============================================================
-// TinigAral — Audio Auralization Engine
+// DINIG — Audio Auralization Engine
 // Native Web Audio API DSP pipeline with zero external audio assets
 // Features: Continuous Rain Layer, Dynamic Moving Spatial Vehicles,
 // Pre-cached Reverb IR Bank, and Procedural Synthesizers

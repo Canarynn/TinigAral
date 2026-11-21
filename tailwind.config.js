@@ -11,7 +11,7 @@ export default {
         mono: ['JetBrains Mono', 'monospace'],
       },
       colors: {
-        // TinigAral brand palette — deep midnight + teal accent
+        // DINIG brand palette — deep midnight + teal accent
         surface: {
           950: '#06090f',
           900: '#0b1120',

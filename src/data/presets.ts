@@ -1,5 +1,5 @@
 // ============================================================
-// TinigAral — Preset Scenario Definitions
+// DINIG — Preset Scenario Definitions
 // Three ready-to-load classroom configurations
 // ============================================================
 

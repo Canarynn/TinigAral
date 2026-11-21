@@ -1,5 +1,5 @@
 // ============================================================
-// TinigAral — DiagnosisBox.tsx
+// DINIG — DiagnosisBox.tsx
 // Smart Acoustic Diagnosis & Highest-Impact Recommendation Card
 // With Collapsible Accordion & Interactive Applied Feedback
 // ============================================================

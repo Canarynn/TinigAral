@@ -1,5 +1,5 @@
 // ============================================================
-// TinigAral — App.tsx
+// DINIG — App.tsx
 // Root shell: 65% 2.5D Canvas | 35% Live Acoustic & DSP Panel
 // ============================================================
 
@@ -45,14 +45,9 @@ export default function App() {
           {/* Header Brand Badge */}
           <div className="absolute top-3.5 left-1/2 -translate-x-1/2 z-10 flex items-center gap-2 pointer-events-none bg-surface-900/80 backdrop-blur px-3 py-1.5 rounded-full border border-white/10 shadow-lg">
             <span className="text-base">🔊</span>
-            <div className="flex items-baseline gap-1">
-              <span className="text-sm font-black tracking-tight text-white text-glow-teal">
-                Tinig
-              </span>
-              <span className="text-sm font-black tracking-tight text-accent-400 text-glow-teal">
-                Aral
-              </span>
-            </div>
+            <span className="text-sm font-black tracking-tight text-white text-glow-teal">
+              DINIG
+            </span>
             <span className="text-[9px] font-semibold uppercase tracking-[0.18em] text-slate-400 ml-1 border-l border-white/20 pl-2">
               Classroom Acoustics
             </span>

@@ -1,5 +1,5 @@
 // ============================================================
-// TinigAral — Room Type Definitions
+// DINIG — Room Type Definitions
 // All positions are in metres; angles in radians (0 = East, CCW+)
 // Default dimensions: standard Philippine concrete classroom
 // ============================================================

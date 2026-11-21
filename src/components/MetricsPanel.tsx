@@ -1,5 +1,5 @@
 // ============================================================
-// TinigAral — MetricsPanel.tsx
+// DINIG — MetricsPanel.tsx
 // Right-panel live acoustic metric cards, Audio Auralization Deck,
 // Smart Diagnosis & Recommendations, and Before/After Delta badges
 // ============================================================

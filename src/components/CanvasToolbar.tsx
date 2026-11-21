@@ -1,5 +1,5 @@
 // ============================================================
-// TinigAral — CanvasToolbar.tsx
+// DINIG — CanvasToolbar.tsx
 // Compact floating toolbar for adding/removing desks & noise sources
 // ============================================================
 

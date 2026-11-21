@@ -1,5 +1,5 @@
 // ============================================================
-// TinigAral — AudioDeck.tsx
+// DINIG — AudioDeck.tsx
 // Audio Auralization Deck: Web Audio DSP controls, A/B toggle,
 // procedural synthesizer, custom upload, mic recording,
 // continuous rain layer, and dynamic moving spatial vehicles
